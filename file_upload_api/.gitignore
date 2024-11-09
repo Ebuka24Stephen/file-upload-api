@@ -1,2 +1,7 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore environment variable files
 .env
-db.sqlite3
+env/

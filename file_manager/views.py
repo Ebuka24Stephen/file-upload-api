@@ -9,7 +9,7 @@ from rest_framework.parsers import MultiPartParser, FormParser
 class FileViewSet(viewsets.ModelViewSet):
     queryset = UploadedFile.objects.all()
     serializer_class = UploadFileSerializer
-    parser_classes = (MultiPartParser, FormParser)  # Required for multipart form data
+    parser_classes = (MultiPartParser, FormParser)  
 
     def create(self, request):
         serializer = UploadFileSerializer(data=request.data)
