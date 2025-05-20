@@ -1,7 +1,6 @@
 <h1>File Upload Api</h1>
 This is a simple api for uploading files [images/videos].
 <br>
-
 <h1>Setting up Development </h1>
 <br>
 <h2>Step 1: Install Python</h2>
