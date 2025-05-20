@@ -2,7 +2,6 @@
 This is a simple api for uploading files [images/videos].
 <br>
 <h1>Setting up Development </h1>
-<br>
 <h2>Step 1: Install Python</h2>
 Make sure you have python installed on your system. You can download it <a href="https://www.python.org/">here</a>.
 <br>
